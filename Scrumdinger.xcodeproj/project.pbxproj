@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49791BF22BEEA27C0082BC8E /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49791BF12BEEA27C0082BC8E /* ScrumdingerApp.swift */; };
-		49791BF42BEEA27C0082BC8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49791BF32BEEA27C0082BC8E /* ContentView.swift */; };
+		49791BF42BEEA27C0082BC8E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49791BF32BEEA27C0082BC8E /* MeetingView.swift */; };
 		49791BF62BEEA27D0082BC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49791BF52BEEA27D0082BC8E /* Assets.xcassets */; };
 		49791BF92BEEA27D0082BC8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49791BF82BEEA27D0082BC8E /* Preview Assets.xcassets */; };
 		49791C032BEEA27E0082BC8E /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49791C022BEEA27E0082BC8E /* ScrumdingerTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		49791BEE2BEEA27C0082BC8E /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49791BF12BEEA27C0082BC8E /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		49791BF32BEEA27C0082BC8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49791BF32BEEA27C0082BC8E /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		49791BF52BEEA27D0082BC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49791BF82BEEA27D0082BC8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49791BFE2BEEA27E0082BC8E /* ScrumdingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				49791BF12BEEA27C0082BC8E /* ScrumdingerApp.swift */,
-				49791BF32BEEA27C0082BC8E /* ContentView.swift */,
+				49791BF32BEEA27C0082BC8E /* MeetingView.swift */,
 				49791BF52BEEA27D0082BC8E /* Assets.xcassets */,
 				49791BF72BEEA27D0082BC8E /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49791BF42BEEA27C0082BC8E /* ContentView.swift in Sources */,
+				49791BF42BEEA27C0082BC8E /* MeetingView.swift in Sources */,
 				49791BF22BEEA27C0082BC8E /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +425,13 @@
 				DEVELOPMENT_TEAM = LR7KZZGJY6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +439,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrueda020.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,11 +458,13 @@
 				DEVELOPMENT_TEAM = LR7KZZGJY6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +472,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrueda020.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
