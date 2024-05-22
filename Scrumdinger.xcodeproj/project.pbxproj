@@ -26,6 +26,7 @@
 		49FE01E42BF2F7570014BC8A /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE01E32BF2F7570014BC8A /* ThemeView.swift */; };
 		49FE01E62BF2FA530014BC8A /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE01E52BF2FA530014BC8A /* ThemePicker.swift */; };
 		8F7814DB2BFD70000007C502 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7814DA2BFD70000007C502 /* ScrumTimer.swift */; };
+		8F7814DD2BFD76A20007C502 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7814DC2BFD76A20007C502 /* MeetingFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		49FE01E32BF2F7570014BC8A /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		49FE01E52BF2FA530014BC8A /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		8F7814DA2BFD70000007C502 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		8F7814DC2BFD76A20007C502 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				49FE01E52BF2FA530014BC8A /* ThemePicker.swift */,
 				49C658612BF4369F00E18F4F /* MeetingHeaderView.swift */,
 				49C658632BF43AE400E18F4F /* ScrumProgressViewStyle.swift */,
+				8F7814DC2BFD76A20007C502 /* MeetingFooterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			files = (
 				49FE01E62BF2FA530014BC8A /* ThemePicker.swift in Sources */,
 				49C658642BF43AE400E18F4F /* ScrumProgressViewStyle.swift in Sources */,
+				8F7814DD2BFD76A20007C502 /* MeetingFooterView.swift in Sources */,
 				8F7814DB2BFD70000007C502 /* ScrumTimer.swift in Sources */,
 				49791C1F2BEEBFBF0082BC8E /* DailyScrum.swift in Sources */,
 				499469742BF167B400D2B49E /* DetailView.swift in Sources */,
